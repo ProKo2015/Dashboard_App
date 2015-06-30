@@ -188,7 +188,7 @@
 					var w = 800,
 					h = 400;
 					
-					d3.json("newsfee.json", function(error, data) {
+					d3.json("newsfeed.json", function(error, data) {
 
                                                 var comments = d3.select("#comments-container").append("div")
                                                         .attr("class", "comments")
@@ -275,7 +275,7 @@
 
 
 //Collapsibles
-d3.json("http://134.91.18.177:5000/collapsible.json", function(error, data) {
+d3.json("collapsible.json", function(error, data) {
 
 //Gesamtbewertung Überschrift						
 						var bewertungenTop = d3.select("#headerBewertung").append("div")

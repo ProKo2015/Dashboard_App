@@ -1,0 +1,13 @@
+[
+    { "wort": "Infektion", "haeufigkeit": 1 },
+    { "wort": "Wartezeit", "haeufigkeit": 5 },
+    { "wort": "Beschwerde", "haeufigkeit": 10 },
+    { "wort": "Hygiene", "haeufigkeit": 20 },
+    { "wort": "Inkompetenz", "haeufigkeit": 40 },
+    { "wort": "Resistenz", "haeufigkeit": 80 },
+    { "wort": "Erreger", "haeufigkeit": 50 },
+    { "wort": "Antibiotika", "haeufigkeit": 60 },
+    { "wort": "Qualität", "haeufigkeit": 30 },
+    { "wort": "Beratung", "haeufigkeit": 70 },
+    { "wort": "Krankenversicherung", "haeufigkeit": 90 }
+  ]
