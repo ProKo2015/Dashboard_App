@@ -188,7 +188,7 @@
 					var w = 800,
 					h = 400;
 					
-					d3.json("newsfeed.json", function(error, data) {
+					d3.json("newsfeed2.json", function(error, data) {
 
                                                 var comments = d3.select("#comments-container").append("div")
                                                         .attr("class", "comments")
@@ -197,7 +197,7 @@
                                                         .enter().append("div");
 
                                                 comments.append("a")
-                                                        //.attr("href", function(d) { return d.url; })
+                                                        .attr("href", function(d) { return d.url; })
                                                         .attr("target", "_blank")
                                                         .text(function(d) { return d.datum + "\n\n"; });
 
